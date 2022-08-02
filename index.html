@@ -55,11 +55,18 @@
                 x: 400,
             })
 
-            gsap.to("#castle", {
+            gsap.from("#castle", {
                 scrollTrigger: {
                     scrub: 0.5,
                 },
                 x: 100,
+            })
+
+            gsap.from("#bats", {
+                scrollTrigger: {
+                    scrub: 0.5,
+                },
+                scale: 1.5
             })
         </script>
     </body>
